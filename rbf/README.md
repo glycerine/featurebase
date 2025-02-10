@@ -4,6 +4,8 @@ Roaring B-tree Format
 The RBF format represents a Roaring bitmap whose containers are stored in the
 leafs of a b-tree. This allows the bitmap to be efficiently queried & updated.
 
+Use pre-formated to preserve the ASCII art below:
+~~~
 
 ## File Format
 
@@ -204,3 +206,4 @@ add I:
 A  B    C D         E   F   G  H          I
 ---------------------------------------------
 
+~~~
